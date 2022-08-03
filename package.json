@@ -1,5 +1,22 @@
 {
-  "devDependencies": {
+  "name": "online_bank",
+  "description": "-Advanced DOM manipulation\r -Events Propagation & Delegation\r -DOM Traversing\r -Sticky Naviguation\r -Lazy Loading\r -Building Tab & Slider Components",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminaIsTrue/Online-Bank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminaIsTrue/Online-Bank/issues"
+  },
+  "homepage": "https://github.com/aminaIsTrue/Online-Bank#readme",
+  "dependencies": {
     "parcel": "^2.6.2"
   }
 }
