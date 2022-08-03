@@ -2,7 +2,7 @@
   "name": "online_bank",
   "description": "-Advanced DOM manipulation\r -Events Propagation & Delegation\r -DOM Traversing\r -Sticky Naviguation\r -Lazy Loading\r -Building Tab & Slider Components",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
