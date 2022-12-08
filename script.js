@@ -157,7 +157,6 @@ allSections.forEach(function (section) {
 
 // Lazy loading images
 const imgTargets = document.querySelectorAll('img[data-src]');
-console.log(imgTargets);
 
 const loadImg = function (entries, observer) {
   const [entry] = entries;
@@ -168,8 +167,6 @@ const loadImg = function (entries, observer) {
   if (entry.target.dataset.src.includes('card')) entry.target.src = card;
   if (entry.target.dataset.src.includes('digital')) entry.target.src = digital;
   if (entry.target.dataset.src.includes('grow')) entry.target.src = grow;
-  // entry.target.src = entry.target.dataset.src;
-  console.log(entry.target.src);
 
   entry.target.addEventListener('load', function () {
     entry.target.classList.remove('lazy-img');
