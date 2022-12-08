@@ -1,5 +1,7 @@
 'use strict';
-
+import card from 'url:./img/card.jpg';
+import digital from 'url:./img/digital.jpg';
+import grow from 'url:./img/grow.jpg';
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
