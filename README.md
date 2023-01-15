@@ -1,8 +1,10 @@
 # Online Banking
 
-## Welcome Page for an imaginary Online Bank:)
+## Welcome Page for an imaginary Online Bank :)
 
 ### This website was to apply my aquired knowledge about
+
+### Take a look: https://my-online-banking.netlify.app/
 
 -Advanced DOM manipulation
 -Events Propagation & Delegation
